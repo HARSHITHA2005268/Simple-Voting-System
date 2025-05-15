@@ -59,3 +59,44 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+###Simple Voting System--About my project
+*Voting System Web Application (Laravel Based)
+This is a simple voting system developed using Laravel (PHP framework).
+It allows users to vote for their favorite candidates and view the voting results.
+
+**Features
+Users can view the list of candidates along with their party and symbol.
+
+Users can cast their vote (only once, tracked using session).
+
+Confirmation alert is shown before submitting the vote.
+
+Voting results are displayed along with total votes.
+
+Option to reset votes and vote again.
+
+Attractive UI with basic styling using CSS and SweetAlert for alerts.
+
+**Technologies Used
+PHP (Laravel framework)
+
+Blade templating engine
+
+Session-based vote tracking (in-memory, no database used)
+
+SweetAlert for user-friendly confirmation messages
+
+Simple and responsive UI using HTML and CSS
+
+**Output link:
+How to Run the Project
+Clone the project.
+
+Run composer install.
+
+Start Laravel server using php artisan serve.
+
+Visit the link: http://localhost:8000.
+To Reset the voting system we have to visit the link: http://127.0.0.1:8000/reset-vote 
